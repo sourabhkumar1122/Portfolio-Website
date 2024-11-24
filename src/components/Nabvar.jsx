@@ -13,15 +13,15 @@ const Nabvar = () => {
     },
     {
       id:2,
-      text:"About"
+      text:"Experiance"
     },
     {
       id:3,
-      text:"Portfolio"
+      text:"Projects"
     },
     {
       id:4,
-      text:"Experiance"
+      text:"About"
     },
     {
       id:5,
@@ -33,7 +33,7 @@ const Nabvar = () => {
       <div className=" max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
         <div className=" flex justify-between h-16 items-center">
           <div className=" flex space-x-2">
-            <img src={style} alt="" className=" h-12 w-12 rounded-full" />
+            <img src={style} alt="" className=" h-12 w-12 rounded-full"/>
             <h1 className=" font-semibold text-xl cursor-pointer">
               SOURABH<span className=" text-gray-500 text-2xl"> KUMAR</span>
               <p className=" text-sm">Web Developer</p>

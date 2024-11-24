@@ -3,7 +3,7 @@ import './App.css'
 import Nabvar from './components/Nabvar'
 import Home from './components/Home'
 import About from './components/About'
-import Portfolio from './components/Portfolio'
+import Projects from './components/Projects'
 import Experiance from './components/Experiance'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
@@ -18,9 +18,10 @@ function App() {
       <div>
       <Nabvar />
       <Home/>
-      <About/>
-      <Portfolio/>
       <Experiance/>
+      <Projects/>
+      
+      <About/>
       <Contact/>
 
       <Footer/>
